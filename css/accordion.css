@@ -1,0 +1,28 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+	margin-top: 5px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.accordion h2 {
+	text-transform: none;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 5px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    text-transform: none;
+    text-align: left;
+}

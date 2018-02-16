@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <sites>
+   <site>
+     <title>W3C</title>
+	<url>http://www.w3c.org/</url>
+     <desc>there are web standards</desc>
+   </site>
+   <site>
+     <title>Mozilla</title>
+	<url>http://www.mozilla.com/ru/</url>
+     <desc>here you can download his latest firefox. and generally learn more about him</desc>
+   </site>
+   <site>
+     <title>msdn</title>
+	<url>http://msdn.microsoft.com/en-us/default.aspx</url>
+     <desc>information for Web developers from microsoft</desc>
+   </site>
+ </sites>
