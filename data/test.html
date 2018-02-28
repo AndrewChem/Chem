@@ -8,7 +8,7 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
     <!-- Good default declaration:
     * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
     * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
@@ -19,44 +19,43 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 	
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <title>Промышленная химия оптом:14 лет успешной работы!</title>
 	
-	
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<link rel="stylesheet" type="text/css" href="../css/accordion.css" />
+	<link rel="stylesheet" href="../css/jquery-ui.css" />
+
+		
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-
-<style>
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 5px 5px 5px 5px;
-	margin-top: 5px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-.accordion h2 {
-	text-transform: none;
-}
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 5px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    text-transform: none;
-    text-align: left;
-}
-</style>
+	<script src="../js/jquery-ui.js"></script>
 	
-	
-	<title>Промышленная химия оптом:14 лет успешной работы!</title>
+<script>
+ $(function() {
+    var progressbar = $( "#progressbar" ),
+      progressLabel = $( ".progress-label" );
+ 
+    progressbar.progressbar({
+      value: false,
+      change: function() {
+        progressLabel.text( progressbar.progressbar( "value" ) + "%" );
+      },
+      complete: function() {
+        progressLabel.text( "Загружено" );
+      }
+    });
+ 
+    function progress() {
+      var val = progressbar.progressbar( "value" ) || 0;
+ 
+      progressbar.progressbar( "value", val + 1 );
+ 
+      if ( val < 99 ) {
+        setTimeout( progress, 100 );
+      }
+    }
+    setTimeout( progress, 300 );
+  });
+  </script>
 	
 <script  type="text/javascript">
 	function headInit(){
@@ -81,7 +80,9 @@
 		}
 	}
 </script>	
-	
+
+
+
 <script type="text/javascript">
 	
 	jQuery(document).ready(function(){
@@ -96,39 +97,45 @@
 							чтобы добраться до необходимого узла, используем jQuery-поиск по DOM узлам
 							например, var idItem = jQuery(xml).find("#item1").eq(1).attr("id");
 						*/
-						
-											
-									jQuery(xml).find('category').each(
-										function()
-										{
-											var id = jQuery(this).attr('id'),
-												cat = jQuery(this).find('title').text();
-												idr = jQuery(this).find('idr').text();
-											jQuery('<div class="accordion"></div>').html('<h2>'+cat+'</h2>').appendTo('#xml-data');
-																		
+							var i = 17;
+							jQuery(xml).find('category').each(
+								function()
+								{
+									
+									var id = jQuery(this).attr('id'),
+										cat = jQuery(this).find('title').text(),
+										idr = jQuery(this).find('idr').text();
 										
-												jQuery(xml).find('offer').each (
-													function()
-													{
+									jQuery('<div class="accordion"></div>').html('<h2>'+cat+'<span class="i">&nbsp;('+i+')</span></h2>').appendTo('#xml-data');
+																				
+										jQuery(xml).find('offer').each (
+											function()
+											{
+											
+												var id = jQuery(this).attr('id'),
+													title = jQuery(this).find('name').text(),
+													url = jQuery(this).find('url').text(),
+													desc = jQuery(this).find('description').text(),
+													price = jQuery(this).find('price').text(),
+													cur = jQuery(this).find('cur').text(),
+													pack = jQuery(this).find('pack').text(),
+													pict = jQuery(this).find('picture').text(),
+													categoryId = jQuery(this).find('categoryId').text();
 													
-														var id1 = jQuery(this).attr('id'),
-															title = jQuery(this).find('name').text();
-															url = jQuery(this).find('url').text();
-															desc = jQuery(this).find('description').text();
-															price = jQuery(this).find('price').text();
-															cur = jQuery(this).find('cur').text();
-															pack = jQuery(this).find('pack').text();
-															pict = jQuery(this).find('picture').text();
-															categoryId = jQuery(this).find('categoryId').text();
-															
-															if (categoryId == idr) {
-																jQuery('<div class="panel"></div>').html('<h3><a href="'+url+'">'+title+'</a></h3><img width="30" align="left" hspace="10" src="'+pict+'"><p>Цена: <b>'+price+' '+cur+'</b></p><p>Фасовка: <b>'+pack+'</b></p><p>'+desc+'</p>').appendTo('#xml-data');
-															}
-															
-													});	
+													if (categoryId == idr) {
+														jQuery('<div class="'+idr+'"></div>').html('<h3>'+title+'</h3><img src="'+pict+'"><button class="open-modal-btn" value="'+title+'">Заказать</button><p>Цена: <b>'+price+' '+cur+'</b></p><p>Фасовка: <b>'+pack+'</b></p><p>'+desc+'</p><hr>').appendTo('#xml-data');
+														
+													}
 												
-										});											
+											});	
+								
+								$('.'+idr+'').wrapAll('<div class="panel"></div>');		
+								i = $('div.'+idr+'').length;				
+								
+								});											
 					headInit();	
+					modal();
+					order();
 				}
 			
 		});
@@ -136,6 +143,7 @@
 	});
 
 </script>
+
 
 </head>
 
@@ -158,11 +166,13 @@
 			<a href="../data/catalog.html"><h2>Каталог товаров</h2></a>
 		</div>
 		
-		
-			
-				<div id="xml-data"></div>
-			
-		
+			<div class="loaderArea" id="progressbar">
+				<div class="progress-label">
+					Загрузка...
+				</div>
+			</div>	
+				
+				<div id="xml-data"></div>	
 		
 		<div class="block">
 			<a href="../data/delivery.html"><h2>Доставка</h2></a>
@@ -178,28 +188,6 @@
 	
 	</div>
 	
-	<script type="text/javascript">
-	var acc = document.getElementsByClassName("accordion");
-	
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
-	
 	
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="../js/index.js"></script>
@@ -207,6 +195,119 @@ for (i = 0; i < acc.length; i++) {
         app.initialize();
     </script>
 	
+	
+<!--Modal -->
+
+<div id="wrapper">
+  <div class="cover"></div>
+	<div class="modal">
+		<div class="content">
+			<button class="close" id="close_modal">X</button>
+			<p>Ваш заказ:</p>
+			
+			<form id="ajax_form" method= "POST" action="">
+				<input type="text" name="product" class="product">
+				<input type="tel" name="phone" placeholder="Телефон">
+				<input type="email" name="email" placeholder="E-mail">
+				<div class="send-btn">
+					<button type="submit" id="send">Заказать</button>
+				</div>
+			</form>
+			
+			 <div id="result_form" class="thank"></div> 
+			
+			
+		</div>
+	</div>
+  </div>
+
+<script type="text/javascript">
+	function modal() {
+  var wrap = $("#wrapper"),
+    open = $(".open-modal-btn"),
+    modal = $(".cover, .modal, .content"),
+    close = $("#close_modal"),
+    state = {
+      close: 0
+    };
+
+  open.on("click", function() {
+    modal.fadeIn();
+  });
+
+  // close modal
+/*  $(".modal").click(function() {
+    wrap.on("click", function(event) {
+      var select = $(".content");
+      if (!$(event.target).closest(select).length && !state.close)
+        modal.fadeOut();
+      state.close = 0;
+      $(this).unbind("click");
+    });
+  });
+*/
+  close.on("click", function() {
+    modal.fadeOut();
+    state.close = 1;
+  });
+}
+
+</script>	
+
+
+
+<!-- Modal end -->
+
+<script type="text/javascript">
+	function order() {
+		$("button").click(function () {
+			var text = $(this).val() ;
+			$(".product").val(text);
+	   });
+   }
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.progress-label');
+    $loader.fadeOut();
+    $preloader.delay(3000).fadeOut('slow');
+  });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#send").click(
+		function(){
+			sendAjaxForm('result_form', 'ajax_form', 'send.php');
+			return false; 
+		}
+	);
+});
+  
+function sendAjaxForm(result_form, ajax_form, url) {
+    jQuery.ajax({
+        url:     "http://him-kazan.ru/assets/email/send.php", //url страницы (action_ajax_form.php)
+        type:     "POST", //метод отправки
+        dataType: "html", //формат данных
+        data: jQuery("#"+ajax_form).serialize(),  // Сеарилизуем объект
+        success: function(response) { //Данные отправлены успешно
+        	result = jQuery.parseJSON(response);
+        	//document.getElementById(result_form).innerHTML = "Продукция: "+result.product+"<br>Телефон: "+result.phone+"<br>E-mail: "+result.email;
+			document.getElementById(result_form).innerHTML = "Ваш заказ принят. Спасибо.";
+						
+			setTimeout(function(){ $('#wrapper').hide(); location.reload(); }, 1500);
+						
+    	},
+    	error: function(response) { // Данные не отправлены
+    		document.getElementById(result_form).innerHTML = "Ошибка. Данные не отправленны.";
+    	}
+ 	});
+	
+}
+
+</script>
 
 </body>
 

@@ -1,0 +1,3350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2018-02-02 15:23">
+
+<shop>
+<name>ООО "АКВАХИМ"</name>
+<company>ООО "АкваХим"</company>
+<url>http://him-kazan.ru/</url>
+
+<currencies>
+	<currency id="RUR" rate="1"/>
+	<currency id="USD" rate="CBRF"/>
+	<currency id="EUR" rate="CBRF"/>
+</currencies>
+
+
+<categories>
+		<category id="46">
+
+	<title>Хлорсодержащие препараты / Дезинфицирующие средства</title>
+	<idr>46</idr>
+
+
+<offers>
+	<offer id="64" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/hloramin/hloramin-b-kristallicheskiy</url>
+  <price>
+
+	
+			300
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		15 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/hloramin_b_cristall.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Хлорамин Б (Китай) кристаллический (50 пакетиков по 300 гр)</name>
+
+  <description>
+    Хлорамин Б – препарат для обработки поверхностей, мебели, посуды и др. Приобрести его по выгодным ценам с доставкой в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="74" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/gipoxlorit-kalcziya/dvuhosnovnaya-sol-gipohlorita-kalciya</url>
+  <price>
+
+	
+			92
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		50 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/dvuhosnovnaya-sol-gipohlorita-kalciya.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Двухосновная соль гипохлорита кальция</name>
+
+  <description>
+    ДСГК – белый кристаллический порошок с широкой сферой применения. Приобрести его по доступной цене предлагаем в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="177" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/gipoxlorit-kalcziya/gipohlorit-kalciya-45</url>
+  <price>
+
+	
+			78
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		50 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/gipokhlorit_kaltsiya_45-min.jpeg</picture>
+
+  <delivery>true</delivery>
+  <name>Гипохлорит Кальция 45% (Китай)</name>
+
+  <description>
+    Препарат широко применяется для дезинфекции, дегазации и отбеливания. Заказать его по доступной цене фасовкой от 50 кг в «АКВАХИМ» по тел: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="179" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/gipoxlorit-natriya/gipohlorit-natriya-dlya-basseynov</url>
+  <price>
+
+	
+			
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		40 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/gipohlorit.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Гипохлорит Натрия (для бассейнов)</name>
+
+  <description>
+    Гипохлорит натрия – препарат для дезинфекции воды в плавательных бассейнах. Приобрести по доступной цене в «АКВАХИМ» с доставкой по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="180" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/gipoxlorit-natriya/gipohlorit-natriya-marki-a-po-gost</url>
+  <price>
+
+	
+			
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		40 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/gipohlorit.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Гипохлорит Натрия марки А по ГОСТ 11086-76</name>
+
+  <description>
+    Гипохлорит натрия марки А – средство для дезинфекции бытовых, сточных и питьевых вод. Купить его в «АКВАХИМ» недорого с доставкой по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="183" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/hloramin/hloramin-b-poroshok</url>
+  <price>
+
+	
+			179
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		15 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/hloramin-b.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Хлорамин Б (Китай) порошок (50 пакетиков по 300 гр)</name>
+
+  <description>
+    Хлорамин Б – средство для обработки мебели, посуды, поверхностей и др. Купить его по доступным ценам с доставкой в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="222" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/hlornaya-izvest/hlornaya-izvest-tatsorb</url>
+  <price>
+
+	
+			47
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/hlornaya-izvest-tatsorb.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Хлорная известь (Россия ТАТСОРБ)</name>
+
+  <description>
+    «Хлорка» – средство, используемое для отбеливания, дегазации и дезинфекции. Купить его по доступной цене фасовкой 20 кг в «АКВАХИМ» по т.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="329" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/xlor-v-tabletkax/zhavilar-effekt-377-tabl-po-266-g-xlor-v-tabletkax</url>
+  <price>
+
+	
+			300
+
+  </price>
+
+  <cur>
+	руб
+  </cur>
+
+ 	<pack>
+		1 банка
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/zhavilar-effect.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Жавилар Эффект (375 табл. по 2,66 г), хлор в таблетках</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="373" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/xlor-v-tabletkax/zhavilar-effekt-300-tabl-po-266-g-xlor-v-tabletkax</url>
+  <price>
+
+	
+			280
+
+  </price>
+
+  <cur>
+	руб
+  </cur>
+
+ 	<pack>
+		1 банка
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/zhavilar-effect.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Жавилар Эффект (300 табл. по 2,66 г), хлор в таблетках</name>
+
+  <description>
+    Жавилар эффект – таблетки для текущей, профилактической и заключительной дезинфекции в различных учреждениях. Купить недорого по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="374" available="true">
+  <url>http://him-kazan.ru/katalog/hlorsoderzhashchie-preparaty/xlor-v-tabletkax/zhavilar-plyus-300-tabl-po-333-g-xlor-v-tabletkax</url>
+  <price>
+
+	
+			300
+
+  </price>
+
+  <cur>
+	руб
+  </cur>
+
+ 	<pack>
+		1 банка
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>46</categoryId>
+
+<picture>http://him-kazan.ru/images/product/hlor/zhavilar-plus.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Жавилар Плюс (300 табл. по 3,33 г), хлор в таблетках</name>
+
+  <description>
+    Жавилар Плюс – препарат для дезинфекции в медицинских, детских учреждениях, в общепитах и др. Купить его недорого в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="44">
+
+	<title>Материалы для водоподготовки</title>
+	<idr>44</idr>
+
+
+<offers>
+	<offer id="17" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/anionit/anionit-av-17-8</url>
+  <price>
+
+	
+			153
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		18 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/anionit_av-17-8-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Анионит АВ-17-8 ГОСТ 20301-74</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="30" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/kationit/kationit-ku-2-8-na-1-sort</url>
+  <price>
+
+	
+			63
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/kationit_ku-2-8_h-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Катионит КУ-2-8 Na (1 сорт) ГОСТ 20298-74</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="31" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/sulfougol/sulfougol-sk-kitaj</url>
+  <price>
+
+	
+			42
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		30 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/sulfougol_sk_po_tu-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Сульфоуголь СК (Китай)</name>
+
+  <description>
+    Сульфоуголь СК (Китай) – материал, используемый для водоподготовки в промышленности и энергетике. Купить недорого в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="73" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/fluorescein</url>
+  <price>
+
+	
+			2000
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/uranin-a-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Флуоресцеин натрия (Уранин)</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="138" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/uranin-a-50</url>
+  <price>
+
+	
+			1200
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		10 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/kanistra.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Уранин А 50% жидкий р-р</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="139" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/uranin-a-20</url>
+  <price>
+
+	
+			500
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		10 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/kanistra.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Уранин А 20% жидкий р-р</name>
+
+  <description>
+    Уранин А 20% жидкий р-р – материал для изменения цвета теплоносителя. Купить его оптом по выгодным ценам в компании «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="142" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/sol-tekhnicheskaya-galit</url>
+  <price>
+
+	
+			6,5
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		50/1000 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/sol-teknicheskaya-galit.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Соль техническая &quot;Галит&quot;</name>
+
+  <description>
+    Техническая соль (цена от 6 руб/кг) – материал, используемый для водоподготовки и в качестве антигололедного реагента. Купить по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="143" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/tabletirovannaya-sol</url>
+  <price>
+
+	
+			20
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/sol_tabletirovannaya-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Соль таблетированная</name>
+
+  <description>
+    Соль таблетированная – высококачественный материал для умягчения воды в различных областях промышленности. Купить оптом с доставкой по тел.:8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="146" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/drugie-materialyi/uranin-a</url>
+  <price>
+
+	
+			2000
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		от 1 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/uranin-a-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Уранин А</name>
+
+  <description>
+    Уранин А – индикатор для выявления утечек, подкрашивания шампуней и других жидкостей. Приобрести его по выгодным ценам в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="175" available="true">
+  <url>http://him-kazan.ru/katalog/materialy-dlya-vodopodgotovki/sulfougol/sulfougol-sk-po-tu</url>
+  <price>
+
+	
+			32
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		30 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>44</categoryId>
+
+<picture>http://him-kazan.ru/images/product/sulfougol_sk_po_tu-min.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Сульфоуголь СК по ТУ</name>
+
+  <description>
+    Сульфоуголь СК по ТУ – катионит, применяющийся для водоподготовки в энергетике. Заказать его оптом и в розницу с быстрой доставкой по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="315">
+
+	<title>Этиленгликоль</title>
+	<idr>315</idr>
+
+
+<offers>
+	<offer id="539" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-99-9-koncentrat</url>
+  <price>
+
+	
+			86
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		246 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 99,9% (концентрат)</name>
+
+  <description>
+    Этиленгликоль 99,9% - препарат, применяемый для изготовления полимеров, антифризов, нитрогликоля, в органическом синтезе и пр. Приобрести его недорого предлагаем у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="540" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-20-vgr-20</url>
+  <price>
+
+	
+			25
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		220 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru/images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 20% (ВГР-20%)</name>
+
+  <description>
+    Этиленгликоль 20 % - материал с температурой замерзания -7°С, используемый для производства охлаждающих жидкостей, антифризов и др. Приобрести его по выгодной цене предлагаем у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="541" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-30-vgr-30</url>
+  <price>
+
+	
+			30
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		225 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru/images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 30% (ВГР-30%)</name>
+
+  <description>
+    Этиленгликоль 30 % - жидкость с температурой кристаллизации -15°С, применяемая для изготовления антифризов, теплоносителей и др. Приобрести ее по привлекательной стоимости можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="542" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-35-vgr-35</url>
+  <price>
+
+	
+			35
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		230 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru/images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 35% (ВГР-35%)</name>
+
+  <description>
+    Этиленгликоль 35 % - препарат с температурой замерзания -20°С, который используется для производства теплоносителей, антифризов и др. Купить его по доступным ценам предлагаем у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="543" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-40-vgr-40</url>
+  <price>
+
+	
+			40
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		230 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 40% (ВГР-40%)</name>
+
+  <description>
+    Этиленгликоль 40 % - жидкость, имеющая температуру замерзания -25°С, используемая для производства антифризов, теплоносителей и др. Приобрести его по выгодной стоимости можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="544" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-45-vgr-45</url>
+  <price>
+
+	
+			45
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		230 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 45% (ВГР-45%)</name>
+
+  <description>
+    Водный раствор этиленгликоля 45 % - вещество, начинающее кристаллизоваться при температуре -30°С. Применяется для производства теплоносителей, антифризов и др. Купить его по привлекательной стоимости можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="545" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-50-vgr-50</url>
+  <price>
+
+	
+			50
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		234 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 50% (ВГР-50%)</name>
+
+  <description>
+    50%-водный раствор этиленгликоля – жидкость с температурой замерзания -35°С, использующаяся при изготовлении антифризов, тосолов и др. Приобрести его по доступным ценам можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="546" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-55-vgr-55</url>
+  <price>
+
+	
+			55
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		238 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 55% (ВГР-55%)</name>
+
+  <description>
+    Этиленгликоль 55% – жидкость, начинающая кристаллизоваться при -35°С. Используется при производстве антифризов, тосолов и др. Приобрести его по выгодной стоимости можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="547" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory/ehtilenglikol-60-vgr-60</url>
+  <price>
+
+	
+			60
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		240 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 60% (ВГР-60%)</name>
+
+  <description>
+    Этиленгликоль 60 % - материал, начинающий кристаллизоваться при температуре -50°С. Применяется для изготовления теплоносителей, антифризов и др. Приобрести его недорого предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="548" available="true">
+  <url>http://him-kazan.ru/katalog/etilenglicol/vodno-glikolevye-rastvory-s-antikorrozijnymi-prisadkami/ehtilenglikol-99-9-koncentrat-s-prisadkami</url>
+  <price>
+
+	
+			88
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		246 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>315</categoryId>
+
+<picture>http://him-kazan.ru//images/product/etilenglikol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Этиленгликоль 99,9% (концентрат) с присадками</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="325">
+
+	<title>Активированные угли</title>
+	<idr>325</idr>
+
+
+<offers>
+	<offer id="309" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-drevesnoj-osnove/aktivirovannyij-ugol-mau-2a</url>
+  <price>
+
+	
+			170
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		15 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovannyj-ugol-mau-2.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь МАУ-2А</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="310" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannye-ugli-na-kokosovoj-osnove/aktivirovannyij-ugol-mau-200</url>
+  <price>
+
+	
+			200
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovannyj-ugol-mau-2.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь МАУ-200</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="645" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-2</url>
+  <price>
+
+	
+			120
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovannyy-ugol-ag-2.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-2</name>
+
+  <description>
+    АГ-2- уголь в виде темно-серых или черных зерен, адсорбирующий органические и неорганические соединения из различных сред. Приобрести его по доступной цене предлагаем у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="646" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-3</url>
+  <price>
+
+	
+			120
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol-ag-3.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-3</name>
+
+  <description>
+    Активированный уголь АГ-3, цена которого у нас одна из самых выгодных, - универсальное адсорбирующее вещество органических и неорганических соединений. Приобрести его можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="647" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-3-kitajskij-analog</url>
+  <price>
+
+	
+			85
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol-ag-3.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-3 (китайский аналог)</name>
+
+  <description>
+    Активный уголь – вещество в виде темно-серых или черных гранул, универсальный адсорбент органических и неорганических соединений. Приобрести его по выгодной стоимости предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="648" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-5</url>
+  <price>
+
+	
+			105
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-5</name>
+
+  <description>
+    Уголь АГ-5 – адсорбирующий препарат, использующийся для водоподготовки, в химической и нефтедобывающей промышленностях и др. Приобрести его по выгодной стоимости можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="649" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-ov-1</url>
+  <price>
+
+	
+			120
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-ОВ-1</name>
+
+  <description>
+    АГ-ОВ-1- активированный уголь, выступающий адсорбентом органических и неорганических соединений из разных сред. Приобрести его по доступным ценам можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="650" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ag-ov-2</url>
+  <price>
+
+	
+			120
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГ-ОВ-2</name>
+
+  <description>
+    Активированный уголь АГ-ОВ-2 – вещество, адсорбирующее органические и неорганические соединения из различных сред. Приобрести его по выгодной стоимости предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="651" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ags-4</url>
+  <price>
+
+	
+			120
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АГС-4</name>
+
+  <description>
+    Активированный уголь АГС-4 широко применяется в сахаро-рафинадной промышленности и для очистки питьевой воды. Приобрести его по доступной стоимости с доставкой можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="652" available="true">
+  <url>http://him-kazan.ru/katalog/aktivirovannye-ugli/aktivirovannyie-ugli-na-kamennougolnoj-osnove/aktivirovannyj-ugol-ar-a</url>
+  <price>
+
+	
+			105
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>325</categoryId>
+
+<picture>http://him-kazan.ru/images/product/ugol/aktivirovanniy-ugol.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Активированный уголь АР-А</name>
+
+  <description>
+    Активный рекуперационный уголь АР-А – препарат, улавливающий пары растворителей и возвращающий их в работу. Приобрести его по доступной цене предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="66">
+
+	<title>Техническая химия</title>
+	<idr>66</idr>
+
+
+<offers>
+	<offer id="257" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/natrij-dvuuglekislyij-1-sort</url>
+  <price>
+
+	
+			30
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25/40 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/chem/soda.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Натрий двууглекислый 1 сорт (бикарбонат натрия), (сода пищевая)</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="258" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/natrij-dvuuglekislyij-2-sort</url>
+  <price>
+
+	
+			28
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25/40 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/chem/soda.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Натрий двууглекислый 2 сорт (бикарбонат натрия), (сода пищевая)</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="259" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/natrij-dvuuglekislyij-kartonnaya-korobka</url>
+  <price>
+
+	
+			33,5
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		12 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/chem/soda_box.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Натрий двууглекислый (бикарбонат натрия), (сода пищевая), картонная коробка - 24 пачки по 500 г</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="279" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/belizna</url>
+  <price>
+
+	
+			15
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		1 л
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/chem/belizna.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Белизна</name>
+
+  <description>
+    Белизна (цена 1 л от 15 руб) – эффективный отбеливатель с моющими и дезинфицирующими свойствами. Купить его по низкой стоимости по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="280" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/zhidkoe-myilo</url>
+  <price>
+
+	
+			60
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		5 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+
+
+  <delivery>true</delivery>
+  <name>Жидкое мыло</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="287" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/butilaczetat-gost-ch</url>
+  <price>
+
+	
+			265
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		18 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/kanistra.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Бутилацетат ГОСТ 22300-76 &quot;Ч&quot;, канистра 20 л</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="288" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/butilaczetat-gost-hch</url>
+  <price>
+
+	
+			290
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		18 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/kanistra.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Бутилацетат ГОСТ 22300-76 &quot;ХЧ&quot;, канистра 20 л</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="289" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/izoamilovyij-spirt-gost-5830-79-ch</url>
+  <price>
+
+	
+			460
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		0,8 кг/16 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/1l.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Изоамиловый спирт ГОСТ 5830-79 &quot;Ч&quot; (бутыль 1л/канистра 20л)</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="290" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/izobutilovyij-spirt-gost-6016-77-ch</url>
+  <price>
+
+	
+			280
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		0,8 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/1l.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Изобутиловый спирт ГОСТ 6016-77 &quot;Ч&quot;, бутыль 1л</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="291" available="true">
+  <url>http://him-kazan.ru/katalog/tekhnicheskaya-himiya/izopropanol-propanol-2-ch</url>
+  <price>
+
+	
+			315
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		1,6 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>66</categoryId>
+
+<picture>http://him-kazan.ru/images/product/1l.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Изопропанол (пропанол-2) &quot;ч&quot;, бутыль 1л</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="685">
+
+	<title>Силикагель технический</title>
+	<idr>685</idr>
+
+
+<offers>
+	<offer id="690" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-dlya-steklopaketov</url>
+  <price>
+
+	
+			100
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-dlya-steklopaketov.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель для Стеклопакетов</name>
+
+  <description>
+    Силикагель – пористое вещество, впитывающее влагу и используемое для предохранения окон от запотевания. Приобрести его по привлекательной стоимости предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="691" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-indikatornyj-gost-8984-75</url>
+  <price>
+
+	
+			280
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-indikatorniy-kitay.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель индикаторный ГОСТ 8984-75</name>
+
+  <description>
+    Индикаторный силикагель – препарат, меняющий свою окраску по мере впитывания влаги, используемый для безопасного хранения и транспортировки различных товаров. Приобрести его по выгодным ценам можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="692" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-indikatornyj-kitaj</url>
+  <price>
+
+	
+			280
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-indikatorniy-kitay.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель индикаторный (Китай)</name>
+
+  <description>
+    Силикагель индикаторный – материал, изменяющий цвет по мере поглощения влаги. Применяется для транспортировки и хранения различных продуктов. Купить его по привлекательной стоимости можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="693" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-kskg-rossiya</url>
+  <price>
+
+	
+			80
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-kskg-rossija.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель КСКГ (Россия)</name>
+
+  <description>
+    Силикагель КСКГ – крупнопористый сорбент, использующийся для осушки жидкостей и газов и пр. Заказать его в «АКВАХИМ» по низким ценам по т.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="694" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-ksmg-kitaj</url>
+  <price>
+
+	
+			60
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		35 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-ksmg-kitay.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель КСМГ (Китай)</name>
+
+  <description>
+    Силикагель КСМГ – материал с пористой структурой, применяемый для очистки и осушки жидкостей, масел и газообразных веществ. Приобрести его по доступным ценам можно у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="695" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-texnicheskij/silikagel-ksmg-rossiya</url>
+  <price>
+
+	
+			80
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		35 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>685</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-ksmg-rossiya.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель КСМГ (Россия)</name>
+
+  <description>
+    Силикагель КСМГ (ГОСТ 3956-76) – эффективный препарат, используемый для осушки и очистки различных масел, жидкостей и газов. Приобрести его недорого предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="686">
+
+	<title>Силикагель фасованный</title>
+	<idr>686</idr>
+
+
+<offers>
+	<offer id="452" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-200-gr</url>
+  <price>
+
+	
+			45
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		200 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/200gr.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 200 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="455" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-250-gr</url>
+  <price>
+
+	
+			50
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		250 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/250gr.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 250 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="456" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-300-gr</url>
+  <price>
+
+	
+			55
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		300 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/300gr.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 300 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="457" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-500-gr</url>
+  <price>
+
+	
+			75
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		500 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/500gr.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 500 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="458" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-1-kg</url>
+  <price>
+
+	
+			140
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		1 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/1kg.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 1 кг</name>
+
+  <description>
+    КСКГ - эффективный сорбент, используемый для осушки веществ в промышленности и в быту. Заказать его в рублях недорого в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="459" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-5-kg</url>
+  <price>
+
+	
+			600
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		5 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/5kg.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 5 кг</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="460" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-10-kg</url>
+  <price>
+
+	
+			1200
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		10 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/10kg.png</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 10 кг</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="461" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/silikagel-kskg/silikagel-fasovannyij-kskg-porczionnyij-po-15-kg</url>
+  <price>
+
+	
+			1800
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		15 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/10kg.png</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель фасованный КСКГ (порционный) по 15 кг</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="689" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/indikatornyij-silikagel-fasovannyij/silikagel-indikatornyij-250-gr</url>
+  <price>
+
+	
+			85
+
+  </price>
+
+  <cur>
+	
+руб/шт
+  </cur>
+
+ 	<pack>
+		по 250 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-indikatorniy.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель Индикаторный 250 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="698" available="true">
+  <url>http://him-kazan.ru/katalog/silikagel-fasovannyij/indikatornyij-silikagel-fasovannyij/silikagel-indikatornyij-100-gr</url>
+  <price>
+
+	
+			50
+
+  </price>
+
+  <cur>
+	руб/шт
+  </cur>
+
+ 	<pack>
+		по 100 гр
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>686</categoryId>
+
+<picture>http://him-kazan.ru/images/product/silikagel/silikagel-indikatorniy.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Силикагель индикаторный 100 гр</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="55">
+
+	<title>Аминаты</title>
+	<idr>55</idr>
+
+
+<offers>
+	<offer id="922" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/zn-oehdf</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Zn-ОЭДФ</name>
+
+  <description>
+    Аква ОЭДФ Zn – реагент, используемый для удаления отложений солей, в целлюлозно-бумажной, химической и текстильной отраслях. Приобрести его по выгодной стоимости можно у ООО «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="923" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-a</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		22 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат А</name>
+
+  <description>
+    Аминат А – эффективный ингибитор труднорастворимых отложений солей в системах охлаждения и теплоснабжения. Приобрести его по выгодной стоимости предлагаем у компании «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="924" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-ak</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат Ак</name>
+
+  <description>
+    Аминат Ак – средство для предотвращения солеотложений в водооборотных системах с в воде повышенной щелочностью. Приобрести его по привлекательной стоимости предлагаем у ООО «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="925" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-ao</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		22 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат Ао</name>
+
+  <description>
+    Аминат Ао – эффективное средство для ингибирования солеотложений и коррозии в обратноосмотическом оборудовании. Приобрести его по привлекательной стоимости можно у компании «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="926" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-bk</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат БК</name>
+
+  <description>
+    Аминат БК – бесцветная жидкость, применяющаяся для предотвращения биологических обрастаний в водных растворах, а также в других сферах. Приобрести ее по выгодным ценам предлагаем у ООО «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="927" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-bk-vysshij-sort</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат БК высший сорт</name>
+
+  <description>
+    Это препарат водный раствор четвертичных солей аммония, используемый для дезинфекции оборудования и в системах оборотного водоснабжения. Приобрести его недорого можно у компании «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="928" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-bp</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат БП</name>
+
+  <description>
+    Аминат БП – препарат, действующий против развития различных микроорганизмов в водооборотных системах и др. Купить его по привлекательным ценам предлагаем у компании «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="929" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-vo-1</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат ВО-1</name>
+
+  <description>
+    Аминат ВО-1 – материал, действующий против развития кислородной коррозии в паровых котлах различных параметров. Приобрести его по привлекательной стоимости предлагаем у ООО «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="930" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-vo-2</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат ВО-2</name>
+
+  <description>
+    Аминат ВО-2 – препарат, направленный против образования кислородной коррозии в паровых котлах различных типов. Купить его по доступным ценам предлагаем у компании «АКВАХИМ»
+  </description>
+
+</offer>
+<offer id="931" available="true">
+  <url>http://him-kazan.ru/katalog/aminaty/aminat-d</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		22 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>55</categoryId>
+
+<picture>http://him-kazan.ru/images/product/aminat/aminat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Аминат Д</name>
+
+  <description>
+    Аминат Д – коррозионно опасный материал, применяющийся для устранения накипи на оборудовании из углеродистой стали. Приобрести его по выгодной стоимости предлагаем у компании «АКВАХИМ»
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="15">
+
+	<title>Реагенты ГидроХим (HydroChem)</title>
+	<idr>15</idr>
+
+
+<offers>
+	<offer id="1482" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-110</url>
+  <price>
+
+	
+			260
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		22 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem 110</name>
+
+  <description>
+    HydroChem 110 – щелочной ингибитор отложений солей с антикоррозийным эффектом, используемый в разных теплосистемах. Заказать по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1483" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-125</url>
+  <price>
+
+	
+			260
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem 125</name>
+
+  <description>
+    HydroChem 125 – жидкий реагент для предотвращения образования накипи в водогрейных котлах. Заказать недорого в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1484" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-140</url>
+  <price>
+
+	
+			150
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		22 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  140</name>
+
+  <description>
+    HydroChem 140 – кислотный ингибитор, связывающий остаточный кислород закрытых системах теплоснабжения. Заказать по низким ценам по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1485" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-150-b</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  150 Б</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="1486" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-160-160/1</url>
+  <price>
+
+	
+			150
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  160 , 160/1</name>
+
+  <description>
+    Гидрохим 160/1 и 160 – жидкие универсальные реагенты, предупреждающие коррозию и солеотложения в тепловых системах. Заказать по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1487" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-170-170/1</url>
+  <price>
+
+	
+			80
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		20 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  170</name>
+
+  <description>
+    Гидрохим 170 и 170/1 – щелочные ингибиторы коррозии и солеотложений в теплосистемах различных типов. Заказать недорого в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1488" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-510</url>
+  <price>
+
+	
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  510</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="1489" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-520</url>
+  <price>
+
+	
+			380
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  520</name>
+
+  <description>
+    HydroChem 520 – антискалант для предотвращения солеотложений в установках обратного осмоса. Заказать по выгодной цене в «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1490" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-530</url>
+  <price>
+
+	
+			245
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  530</name>
+
+  <description>
+    HydroChem 530 – щелочной реагент для промывки мембранных элементов установок обратного осмоса. Заказать в «АКВАХИМ» недорого по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="1491" available="true">
+  <url>http://him-kazan.ru/katalog/reagentyi-hydrochem/hydrochem-620</url>
+  <price>
+
+	
+			240
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>15</categoryId>
+
+<picture>http://him-kazan.ru/images/product/reagent.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>HydroChem  620</name>
+
+  <description>
+    HydroChem 620 – кислотный реагент, используемый для промывки мембран установок обратного осмоса. Заказать по низкой цене «АКВАХИМ» по тел.: 8-800-333-26-25.
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+<category id="43">
+
+	<title>Комплексонаты и ингибиторы</title>
+	<idr>43</idr>
+
+
+<offers>
+	<offer id="379" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitory/ingibitor-korrozii-protectogen-c-aqua-protektogen-c-aqua-1l</url>
+  <price>
+
+	
+			800
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		1,1 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/protectogen_c_aqua.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Ингибитор коррозии Protectogen C Aqua (протектоген C Aqua), 1л</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="381" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitoryi-korrozii-dlya-kislyix-sred/korantin-bn-solid-korantin-bn-fest-bochka</url>
+  <price>
+
+	
+			600
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		65 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/basf-korantin.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Korantin BN Solid (Korantin BN Fest), бочка</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="382" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitoryi-korrozii-dlya-kislyix-sred/korantin-pp-bochka</url>
+  <price>
+
+	
+			550
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		60 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/basf-korantin.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Korantin PP, бочка</name>
+
+  <description>
+    Korantin PP (бочка) – ингибитор коррозии металлов, использующийся в кислых и нейтральных средах. Купить недорого в «АКВАХИМ» в руб. по т.: 8-800-333-26-25.
+  </description>
+
+</offer>
+<offer id="383" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitoryi-korrozii-dlya-kislyix-sred/korantin-pp-kontejner</url>
+  <price>
+
+	
+			500
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		1000 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/korantin-pp-container.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Korantin PP, контейнер</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="384" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitoryi-korrozii-dlya-kislyix-sred/korantin-pm-bochka</url>
+  <price>
+
+	
+			700
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		60 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/basf-korantin.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Korantin PM, бочка</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="385" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitoryi-korrozii-dlya-kislyix-sred/lutron-lmm-bochka</url>
+  <price>
+
+	
+			300
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		190 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/bochka.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Lutron LMM, бочка</name>
+
+  <description>
+    
+  </description>
+
+</offer>
+<offer id="507" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/hydro-x-a-s-gidro-iks-daniya</url>
+  <price>
+
+	
+			450
+
+  </price>
+
+  <cur>
+	
+руб/л
+  </cur>
+
+ 	<pack>
+		20 л
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/komleksonat.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Hydro-X A/S (Гидро-икс) Дания</name>
+
+  <description>
+    Hydro-X A/S – препарат, применяемый для защиты паровых и водогрейных котлов от накипи и коррозии. Приобрести ее по доступной цене с доставкой по России предлагаем у ООО «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="508" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/gidrooksiehtilidendifosfonovaya-kislota-oehdfk</url>
+  <price>
+
+	
+			160
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		25 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/oedfk.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Оксиэтилидендифосфоновая кислота (ОЭДФ К), порошок</name>
+
+  <description>
+    ОЭДФК – эффективное средство для защиты от образования солеотложений в системах отопления и охлаждения разных типов. Купить его по доступной цене предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="509" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/gillufer-422</url>
+  <price>
+
+	
+			250
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		27 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	
+			<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/gillufer.jpg</picture>
+
+  <delivery>true</delivery>
+  <name>Гилуфер 422 (Gilufer)</name>
+
+  <description>
+    Гилуфер 422 – препарат с отличными стабилизирующими и диспергирующими свойствами, защищающими от солеотложения и подшламовой коррозии. Приобрести его по привлекательным ценам предлагаем у компании «АКВАХИМ».
+  </description>
+
+</offer>
+<offer id="512" available="true">
+  <url>http://him-kazan.ru/katalog/kompleksonatyi-i-ingibitoryi/ingibitory/ingibitor-soleotlozhenij-ioms-1-rastvor</url>
+  <price>
+
+	
+			200
+
+  </price>
+
+  <cur>
+	руб/кг
+  </cur>
+
+ 	<pack>
+		40 кг
+	</pack>
+
+  <currencyId>
+	RUR
+  </currencyId>
+
+	<categoryId>43</categoryId>
+
+<picture>http://him-kazan.ru/images/product/komleksonat/ingibitor.png</picture>
+
+  <delivery>true</delivery>
+  <name>Ингибитор солеотложений ИОМС-1  (раствор)</name>
+
+  <description>
+    Ингибитор солеотложений – вещество, широко используемое в коммунальном хозяйстве, различных отраслей промышленности и др. Приобрести его по выгодным ценам можно у компании «АКВАХИМ».
+  </description>
+
+</offer>
+
+</offers>
+
+
+</category>
+
+
+</categories>
+
+</shop>
+</yml_catalog>

@@ -1,10 +1,21 @@
-! function(i) {
-      var o, n;
-      i(".title_block").on("click", function() {
-        o = i(this).parents(".accordion_item"), n = o.find(".info"),
-          o.hasClass("active_block") ? (o.removeClass("active_block"),
-            n.slideUp()) : (o.addClass("active_block"), n.stop(!0, !0).slideDown(),
-            o.siblings(".active_block").removeClass("active_block").children(
-              ".info").stop(!0, !0).slideUp())
-      })
-    }(jQuery);
+function headInit(){
+		var acc = document.getElementsByClassName("accordion");
+		
+		var i;
+		
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+				/* Toggle between adding and removing the "active" class,
+				to highlight the button that controls the panel */
+				this.classList.toggle("active");
+		
+				/* Toggle between hiding and showing the active panel */
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+				} else {
+					panel.style.display = "block";
+				}
+			});
+		}
+	}

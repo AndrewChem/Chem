@@ -47,15 +47,13 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
     /*left:50%;
     top:25%;*/
     /*height:50px;                   /* text area height */
     /*width:225px;                   /* text area width */
     text-align:center;
-    padding:60px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:20px 20px 0px 20px;  /* offset vertical: half of image height and text area height */
+     margin:20px 20px 0px 20px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -217,4 +215,88 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+
+.ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    top: 6px;
+    font-weight: bold;
+    left: 37%;
+    background: none;
+    display: block;
+    position: absolute;
+  }
+
+  /* Modal */
+.cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  z-index: 100;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-x: auto;
+  overflow-y: scroll;
+  padding: 20px;
+  z-index: 200;
+}
+
+.content {
+	display: none;
+    min-width: 200px;
+    width: 97%;
+    position: relative;
+    background-color: #FAFAFA;
+    z-index: 300;
+    padding: 15px 0 0 10px;
+	border-radius: 5px;
+}
+.content input {
+	width: 85%;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+.open-modal-btn {
+  cursor: pointer;
+}
+
+.close {
+	position: absolute;
+    top: 5px;
+    right: 5px;
+	padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+/*Modal end */
+
+.send-btn {
+	display: block;
+    text-align: center;
+}
+
+.send-btn button {
+	border-radius: 15px;
+	margin: 5px 0 10px 0;
+    padding: 5px 15px 5px 15px;
+    background: #1E90FF;
+    color: #FFFFFF;
+}
+.thank {
+	text-align: center;
+	font-weight: bold;
 }
