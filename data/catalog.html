@@ -26,11 +26,84 @@
 	<link rel="stylesheet" href="../css/jquery-ui.css" />
 
 		
+<<<<<<< HEAD
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/jquery-ui.js"></script>
 	<script src="../js/progressbar.js"></script>
 	<script src="../js/accordion.js"></script>	
 	<script src="../js/xml.js"></script>	
+=======
+				/* Toggle between hiding and showing the active panel */
+				var panel = this.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+				} else {
+					panel.style.display = "block";
+				}
+			});
+		}
+	}
+</script>	
+	
+<script type="text/javascript">
+	
+	jQuery(document).ready(function(){
+		jQuery.ajax({
+			type: "GET", // метод передачи данных, можно пропутсить - по умолчанию и так get
+			url: ".//data/app.xml", // путь к файлу, который будем читать
+			dataType: "xml", // тип данных, с котрыми работаем
+			success: function(xml) 
+				{ // переменная названа xml. ее можно назвать как либо по другому
+						/*
+							в ответе приходит объект XML.
+							чтобы добраться до необходимого узла, используем jQuery-поиск по DOM узлам
+							например, var idItem = jQuery(xml).find("#item1").eq(1).attr("id");
+						*/
+							var i = 17;
+							jQuery(xml).find('category').each(
+								function()
+								{
+									
+									var id = jQuery(this).attr('id'),
+										cat = jQuery(this).find('title').text(),
+										idr = jQuery(this).find('idr').text();
+										
+									jQuery('<div class="accordion"></div>').html('<h2>'+cat+'<span class="i">&nbsp;('+i+')</span></h2>').appendTo('#xml-data');
+																				
+										jQuery(xml).find('offer').each (
+											function()
+											{
+											
+												var id = jQuery(this).attr('id'),
+													title = jQuery(this).find('name').text(),
+													url = jQuery(this).find('url').text(),
+													desc = jQuery(this).find('description').text(),
+													price = jQuery(this).find('price').text(),
+													cur = jQuery(this).find('cur').text(),
+													pack = jQuery(this).find('pack').text(),
+													pict = jQuery(this).find('picture').text(),
+													categoryId = jQuery(this).find('categoryId').text();
+													
+													if (categoryId == idr) {
+														jQuery('<div class="'+idr+'"></div>').html('<h3>'+title+'</h3><img src="'+pict+'"><button>Заказать</button><p>Цена: <b>'+price+' '+cur+'</b></p><p>Фасовка: <b>'+pack+'</b></p><p>'+desc+'</p><hr>').appendTo('#xml-data');
+													}
+												
+											});	
+								
+								$('.'+idr+'').wrapAll('<div class="panel"></div>');		
+								i = $('div.'+idr+'').length;				
+								
+								});											
+					headInit();	
+					
+				}
+			
+		});
+	
+	});
+
+</script>
+>>>>>>> 08b9d9568e20c0b778ebf16c820f27918b28bfed
 
 </head>
 
