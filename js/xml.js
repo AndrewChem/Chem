@@ -1,15 +1,10 @@
 	jQuery(document).ready(function(){
 		jQuery.ajax({
-			type: "GET", // метод передачи данных, можно пропутсить - по умолчанию и так get
-			url: "http://him-kazan.ru/app.xml", // путь к файлу, который будем читать
-			dataType: "xml", // тип данных, с котрыми работаем
+			type: "GET", 
+			url: "http://him-kazan.ru/app.xml", 
+			dataType: "xml", 
 			success: function(xml) 
-				{ // переменная названа xml. ее можно назвать как либо по другому
-						/*
-							в ответе приходит объект XML.
-							чтобы добраться до необходимого узла, используем jQuery-поиск по DOM узлам
-							например, var idItem = jQuery(xml).find("#item1").eq(1).attr("id");
-						*/
+				{ 
 							var i = 17;
 							jQuery(xml).find('category').each(
 								function()
@@ -42,13 +37,15 @@
 												
 											});	
 								
-								$('.'+idr+'').wrapAll('<div class="panel"></div>');		
-								i = $('div.'+idr+'').length;				
+								$('.'+idr+'').wrapAll('<div class="panel"></div>');	
+								i = $('div.'+idr+'').length;
+								$('.'+idr+'').attr('class','tovar');				
 								
 								});											
 					headInit();	
 					modal();
 					order();
+					
 				}
 			
 		});

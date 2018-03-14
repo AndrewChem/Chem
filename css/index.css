@@ -69,7 +69,7 @@ body {
 }
 
 .phone {
-	background-color: #ffffff;
+	background-color: #DCDCDC;
     border-radius: 5px;
     padding: 1px 5px 13px 5px;
     border: 1px solid #D3D3D3;
@@ -167,7 +167,7 @@ h1 {
 }
 
 .panel img {
-	width: 30px; 
+	max-height: 40px; 
 	float: left;
 	margin:0 10px 10px 0;
 }
@@ -299,4 +299,25 @@ h1 {
 .thank {
 	text-align: center;
 	font-weight: bold;
+}
+.search-result {
+	display: none;
+	text-transform: none;
+    text-align: left;
+	background: #ffffff;
+    padding: 5px;
+    margin: 10px 0 0 0;
+}
+.search-result img {
+	max-height: 40px; 
+	float: left;
+	margin:0 10px 10px 0;
+}
+.search-result button {
+	float: right;
+    background-color: #1E90FF;
+    color: #ffffff;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    border: 1px solid #C0C0C0;
 }

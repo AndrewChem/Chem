@@ -129,13 +129,15 @@
 												
 											});	
 								
-								$('.'+idr+'').wrapAll('<div class="panel"></div>');		
+								$('.'+idr+'').wrapAll('<div class="panel"></div>');
+								$('.'+idr+'').attr('class','tovar');
 								i = $('div.'+idr+'').length;				
 								
 								});											
 					headInit();	
 					modal();
 					order();
+					
 				}
 			
 		});
@@ -144,6 +146,32 @@
 
 </script>
 
+<script type="text/javascript">
+$(function(search) {
+  $("#sr-btn").click(function() {
+  
+	$('.search-result').css('display', 'block');
+	//$('.search-title').html('<h3>Результаты поиска:</h3>');
+  
+	var poisk = $("#sr-data").val();
+
+    $("#xml-data").each(function(index, data) {
+      var content = $(data).html();
+      //var cls = $(".panel").children().attr("class");
+
+      if (content.toLowerCase().indexOf(poisk.toLowerCase()) != -1) {
+        $(".search-result").html($('.tovar:contains("' + poisk + '")'));
+        return false;
+      } else {
+        $(".search-result").html(
+          "Извините, по вашему запросу ничего не найдено"
+        );
+        return false;
+      }
+    });
+  });
+});
+</script>
 
 </head>
 
@@ -161,6 +189,13 @@
 			<p class="tel-comment">Звонок по России бесплатный</p>
 			<a href="mailto:880033326@mail.ru">880033326@mail.ru</a>
 		</div>
+		
+		<div class="search">
+			<input id="sr-data" type="text" name="search" value="" placeholder="Поиск по каталогу">
+			<button id="sr-btn" type="button"><img src="../img/search.png"></button>
+			
+			<!--<div class="search-title"></div>-->
+			<div class="search-result">test</div>
 		
 		<div class="block">
 			<a href="../data/catalog.html"><h2>Каталог товаров</h2></a>
