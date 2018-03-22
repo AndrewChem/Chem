@@ -8,18 +8,16 @@ $(function() {
         progressLabel.text( progressbar.progressbar( "value" ) + "%" );
       },
       complete: function() {
-        progressLabel.text( "Загружено" );
+        progressLabel.text( "Р—Р°РіСЂСѓР¶РµРЅРѕ" );
       }
     });
  
-    function progress() {
+    /*function progress() {
       var val = progressbar.progressbar( "value" ) || 0;
- 
-      progressbar.progressbar( "value", val + 1 );
- 
-      if ( val < 99 ) {
-        setTimeout( progress, 100 );
+       progressbar.progressbar( "value", val + 1 );
+       if ( val < 99 ) {
+        setTimeout( progress, 50 );
       }
     }
-    setTimeout( progress, 300 );
+    setTimeout( progress, 300 );*/
   });
