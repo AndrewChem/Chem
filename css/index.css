@@ -193,7 +193,7 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.ui-progressbar {
+/*.ui-progressbar {
     position: relative;
   }
   
@@ -206,7 +206,17 @@ h1 {
     position: absolute;
 	text-transform: none;
 }
-  
+  */
+.loaderArea {
+    width: 100%;
+    background: #ffffff;
+    padding: 5px 0 5px 0;
+    opacity: 0.5;	
+}
+.loaderArea img {
+	width: 30px;
+}
+
 .about {
 	text-transform: none;
     text-align: left;
@@ -265,6 +275,10 @@ h1 {
 	padding: 0px 10px 0px 10px;
     border-radius: 10px;
 }
+#ajax_form p,span {
+	text-transform: none;
+}
+
 /*Modal end */
 
 .send-btn {

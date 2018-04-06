@@ -29,33 +29,7 @@
 	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/jquery-ui.js"></script>
 	
-<script>
- $(function() {
-    var progressbar = $( "#progressbar" ),
-      progressLabel = $( ".progress-label" );
- 
-    progressbar.progressbar({
-      value: false,
-      change: function() {
-        progressLabel.text( progressbar.progressbar( "value" ) + "%" );
-      },
-      complete: function() {
-        progressLabel.text( "Загружено" );
-      }
-    });
- 
-    function progress() {
-      var val = progressbar.progressbar( "value" ) || 0;
- 
-      progressbar.progressbar( "value", val + 1 );
- 
-      if ( val < 99 ) {
-        setTimeout( progress, 100 );
-      }
-    }
-    setTimeout( progress, 300 );
-  });
-  </script>
+
 	
 <script  type="text/javascript">
 	function headInit(){
@@ -143,6 +117,12 @@
 		});
 	
 	});
+	
+	file = new File("../data/test.xml");
+ 
+transformer = TransformerFactory.xml().newTransformer();
+transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+transformer.transform(new DOMSource(doc), new StreamResult(file));
 
 </script>
 

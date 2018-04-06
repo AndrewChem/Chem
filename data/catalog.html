@@ -8,23 +8,23 @@
     
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />-->
     
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com http://him-kazan.ru; style-src 'self' 'unsafe-inline'; media-src *" />
+   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com http://him-kazan.ru; style-src 'self' 'unsafe-inline'; media-src *" />-->
 	
     <title>Промышленная химия оптом:14 лет успешной работы!</title>
 	
 	<link rel="stylesheet" type="text/css" href="../css/index.css" />
 	<link rel="stylesheet" type="text/css" href="../css/accordion.css" />
-	<link rel="stylesheet" href="../css/jquery-ui.css" />
-
-	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="../js/jquery-ui.js"></script>
 	
-	<script type="text/javascript" src="../js/progressbar.js"></script>
+
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+		
 	<script type="text/javascript" src="../js/accordion.js"></script>
 	<script type="text/javascript" src="../js/xml.js"></script>
 	<script type="text/javascript" src="../js/search.js"></script>
 	<script type="text/javascript" src="../js/scrollup.js"></script>
-
+	
+	
 </head>
 
 <body>
@@ -52,10 +52,8 @@
 			<a href="../data/catalog.html"><h2>Каталог товаров</h2></a>
 		</div>
 		
-			<div class="loaderArea" id="progressbar">
-				<div class="progress-label">
-					Загрузка...
-				</div>
+			<div class="loaderArea">
+				<img src="../img/progress_bar.gif">
 			</div>	
 				
 				<div id="xml-data"></div>	
@@ -83,9 +81,15 @@
 			<p>Ваш заказ:</p>
 			
 			<form id="ajax_form" method= "POST" action="">
-				<input type="text" name="product" class="product">
-				<input type="tel" name="phone" placeholder="Телефон">
-				<input type="email" name="email" placeholder="E-mail">
+				<input type="text" name="product" class="product" value="">
+				<input type="text" name="volume" placeholder="Объем">
+				<input id="valid" type="tel" name="phone" placeholder="Телефон">
+				<input id="valid1" type="email" name="email" placeholder="E-mail">
+				
+				<p>Вы хотите заказать как:</p>
+				<input type="radio" name="fiz" value="fiz"><span>Физическое лицо</span>
+				<input type="radio" name="ur" value="ur"><span>Юридическое лицо</span>
+			                           				
 				<div class="send-btn">
 					<button type="submit" id="send">Заказать</button>
 				</div>
@@ -96,6 +100,8 @@
 		</div>
 	</div>
   </div>
+  
+
 
 <script type="text/javascript">
 	function modal() {
@@ -111,17 +117,6 @@
     modal.fadeIn();
   });
 
-  // close modal
-/*  $(".modal").click(function() {
-    wrap.on("click", function(event) {
-      var select = $(".content");
-      if (!$(event.target).closest(select).length && !state.close)
-        modal.fadeOut();
-      state.close = 0;
-      $(this).unbind("click");
-    });
-  });
-*/
   close.on("click", function() {
     modal.fadeOut();
     state.close = 1;
@@ -141,26 +136,25 @@
 </script>
 
 <script type="text/javascript">
-  $(document).ready(function() {
-    $preloader = $('.loaderArea'),
-      $loader = $preloader.find('.progress-label');
-  //  $loader.fadeOut();
-    $preloader.delay(3000).fadeOut('slow');
-  });
-</script>
-
-<script type="text/javascript">
 $(document).ready(function() {
-    $("#send").click(
+   $("#send").click(
 		function(){
+		
+		if ( $('#valid').val().length > 5 || $('#valid1').val().length > 5 ) {
 			sendAjaxForm('result_form', 'ajax_form', 'send.php');
 			return false; 
+			}
+			else {
+			$('#result_form').html('Неправильно заполнены поля.');
+			setTimeout(function(){ $('#close_modal').click(); $('#result_form').html(''); }, 1000);
+			return false; 
+			}
 		}
 	);
 });
   
-function sendAjaxForm(result_form, ajax_form, url) {
-    jQuery.ajax({
+  function sendAjaxForm(result_form, ajax_form, url) {
+	jQuery.ajax({
         url:     "http://him-kazan.ru/assets/email/send.php", 
         type:     "POST", 
         dataType: "html", 
@@ -177,8 +171,17 @@ function sendAjaxForm(result_form, ajax_form, url) {
     		$('#result_form').html('Ошибка. Данные не отправлены.');
     	}
  	});
+
 }
 </script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $preloader = $('.loaderArea'),
+    $preloader.delay(3000).fadeOut('slow');
+  });
+</script>
+
 
 <div id="scrollup"><img alt="Вверх" src="../img/up.png"></div>
 
