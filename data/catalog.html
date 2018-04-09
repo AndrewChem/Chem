@@ -15,8 +15,6 @@
 	<link rel="stylesheet" type="text/css" href="../css/index.css" />
 	<link rel="stylesheet" type="text/css" href="../css/accordion.css" />
 	
-
-
 	<script type="text/javascript" src="../js/jquery.min.js"></script>
 		
 	<script type="text/javascript" src="../js/accordion.js"></script>
@@ -85,10 +83,21 @@
 				<input type="text" name="volume" placeholder="Объем">
 				<input id="valid" type="tel" name="phone" placeholder="Телефон">
 				<input id="valid1" type="email" name="email" placeholder="E-mail">
+				<input type="text" name="comment" placeholder="Примечание">
 				
 				<p>Вы хотите заказать как:</p>
-				<input type="radio" name="fiz" value="fiz"><span>Физическое лицо</span>
-				<input type="radio" name="ur" value="ur"><span>Юридическое лицо</span>
+				<table border="0">
+				<tr><td width="20%">
+					<input id="fiz" type="checkbox" name="person" value="fiz" checked>
+				</td><td>
+					<span>Физическое лицо</span>
+				</td></tr>
+				<tr><td width="20%">
+					<input id="ur" type="checkbox" name="person" value="ur">
+				</td><td>
+					<span>Юридическое лицо</span>
+				</td></tr>
+				</table>
 			                           				
 				<div class="send-btn">
 					<button type="submit" id="send">Заказать</button>
@@ -101,8 +110,16 @@
 	</div>
   </div>
   
-
-
+<script type="text/javascript">
+	$("#fiz").click(function () {
+		$("#ur").prop('checked',false);
+	   });
+	 $("#ur").click(function () {
+		$("#fiz").prop('checked',false);
+	   });
+</script>  
+ 
+ 
 <script type="text/javascript">
 	function modal() {
   var wrap = $("#wrapper"),
